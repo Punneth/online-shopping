@@ -1,0 +1,9 @@
+
+‡
+java:S1488"jImmediately return this expression instead of assigning it to the temporary variable "inventoryResponses".(‘ŠÅ8¸ãü¸Æ1
+h
+java:S2259"KA "NullPointerException" could be thrown; "inventoryList" is nullable here.(‘ŠÅ8Àãü¸Æ1
+_
+java:S6813"BRemove this field injection and use constructor injection instead.(êæÄŞ8Àãü¸Æ1
+T
+java:S1135"2Complete the task associated to this TODO comment.(„ ôıÿÿÿÿ8Âãü¸Æ1

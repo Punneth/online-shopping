@@ -1,0 +1,15 @@
+
+ƒ
+java:S1488d"fImmediately return this expression instead of assigning it to the temporary variable "orderLineItems".(ƒ…ÒÔ8ïÇƒ•É1
+_
+java:S6813!"BRemove this field injection and use constructor injection instead.(êæÄŞ8‘ÿ•É1
+_
+java:S6813$"BRemove this field injection and use constructor injection instead.(êæÄŞ8‘ÿ•É1
+X
+java:S1612.";Replace this lambda with method reference 'this::mapToDto'.(Ó¤®Ì8“ÿ•É1
+d
+java:S16126"GReplace this lambda with method reference 'OrderLineItems::getSkuCode'.(Ûäª×8”ÿ•É1
+\
+java:S1874H":Remove this use of "getStatusCodeValue"; it is deprecated.(Éôô¾üÿÿÿÿ8˜ÿ•É1
+f
+java:S1612W"IReplace this lambda with method reference 'InventoryResponse::isInStock'.(ë¹Š®8™ÿ•É1

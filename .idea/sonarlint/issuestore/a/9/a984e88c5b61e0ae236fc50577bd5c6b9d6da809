@@ -1,0 +1,9 @@
+
+j
+java:S1612"HReplace this lambda with method reference 'OrderLineItemsDTO::getPrice'.(èãÕœøÿÿÿÿ8œãåØÈ1
+Y
+java:S6353"<Use concise character class syntax '\\d' instead of '[0-9]'.(‘±°„8ø‹ÙÈ1
+Y
+java:S6353"<Use concise character class syntax '\\d' instead of '[0-9]'.(‘±°„8ø‹ÙÈ1
+N
+java:S1128"1Remove this unused import 'java.math.BigDecimal'.(êêŠ8£ãåØÈ1
