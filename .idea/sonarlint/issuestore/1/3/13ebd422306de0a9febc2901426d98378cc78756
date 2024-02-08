@@ -3,3 +3,7 @@
 java:S1488"cImmediately return this expression instead of assigning it to the temporary variable "inventories".(‹çïÌ8“ï×·Æ1
 _
 java:S6813"BRemove this field injection and use constructor injection instead.(êæÄŞ8™ï×·Æ1
+†
+java:S1128"dRemove this unused import 'org.springframework.jdbc.core.namedparam.BeanPropertySqlParameterSource'.(°â¼šúÿÿÿÿ8¢Œ¸Ï1
+O
+java:S1128"-Remove this unused import 'java.util.Arrays'.(î–˜Éüÿÿÿÿ8¢Œ¸Ï1

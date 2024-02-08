@@ -1,0 +1,10 @@
+
+X
+java:S6813"BRemove this field injection and use constructor injection instead.(êæÄÞ
+q
+java:S3305"VInject this field value directly into "mysqlDataSource", the only method that uses it.(¼Êê¬ýÿÿÿÿ
+V	java:S125/"<This block of commented-out lines of code should be removed.(¹¨üþûÿÿÿÿ
+n
+java:S1128"SRemove this unused import 'org.springframework.beans.factory.annotation.Qualifier'.(íàÄ®ýÿÿÿÿ
+{
+java:S1128	"eRemove this unused import 'org.springframework.context.support.PropertySourcesPlaceholderConfigurer'.(þð²Á

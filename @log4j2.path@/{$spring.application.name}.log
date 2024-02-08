@@ -1,0 +1,12 @@
+[INFO ] 2024-01-06 06:09:08.272 [main] [{$spring.application.name},,] ValidationServiceApplication - Starting ValidationServiceApplication using Java 17.0.7 with PID 11916 (C:\online-shopping\online-shopping\validation-service\target\classes started by punee in C:\online-shopping\online-shopping)
+[DEBUG] 2024-01-06 06:09:08.320 [main] [{$spring.application.name},,] ValidationServiceApplication - Running with Spring Boot v3.1.6, Spring v6.0.14
+[INFO ] 2024-01-06 06:09:08.330 [main] [{$spring.application.name},,] ValidationServiceApplication - The following 1 profile is active: "local"
+[INFO ] 2024-01-06 06:09:09.936 [main] [{$spring.application.name},,] TomcatWebServer - Tomcat initialized with port(s): 8089 (http)
+[INFO ] 2024-01-06 06:09:09.945 [main] [{$spring.application.name},,] Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8089"]
+[INFO ] 2024-01-06 06:09:09.946 [main] [{$spring.application.name},,] StandardService - Starting service [Tomcat]
+[INFO ] 2024-01-06 06:09:09.947 [main] [{$spring.application.name},,] StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.16]
+[INFO ] 2024-01-06 06:09:10.058 [main] [{$spring.application.name},,] [/] - Initializing Spring embedded WebApplicationContext
+[INFO ] 2024-01-06 06:09:10.060 [main] [{$spring.application.name},,] ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1564 ms
+[INFO ] 2024-01-06 06:09:10.939 [main] [{$spring.application.name},,] Http11NioProtocol - Starting ProtocolHandler ["http-nio-8089"]
+[INFO ] 2024-01-06 06:09:10.957 [main] [{$spring.application.name},,] TomcatWebServer - Tomcat started on port(s): 8089 (http) with context path ''
+[INFO ] 2024-01-06 06:09:10.966 [main] [{$spring.application.name},,] ValidationServiceApplication - Started ValidationServiceApplication in 3.395 seconds (process running for 4.621)

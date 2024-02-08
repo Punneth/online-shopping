@@ -12,7 +12,10 @@ import com.techie.pojo.OrderResponse;
 import com.techie.pojo.response.ErrorResponse;
 import com.techie.service.ValidateService;
 import com.techie.service.Validator;
+import com.techie.util.LogMessage;
 import lombok.RequiredArgsConstructor;
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.context.ApplicationContext;
@@ -29,6 +32,8 @@ import java.util.stream.Stream;
 @Service
 @RequiredArgsConstructor
 public class ValidateServiceImpl implements ValidateService {
+
+    private static final Logger LOGGER = LogManager.getLogger(ValidateServiceImpl.class);
 
     @Value("${shipping.validators}")
     private String validators;
@@ -47,9 +52,11 @@ public class ValidateServiceImpl implements ValidateService {
         List<String> validatorsList = Stream.of(validators.split(",")).toList();
 
         if (null == validatorsList) {
+            LogMessage.log(LOGGER, "validate list is empty" + validatorsList);
             throw new ValidationException(ErrorCodeEnum.VALIDATOR_RULE_FAILED.getErrorCode(),
                     ErrorCodeEnum.VALIDATOR_RULE_FAILED.getErrorMessage(), HttpStatus.INTERNAL_SERVER_ERROR);
         } else {
+            LogMessage.log(LOGGER, "validating the actual request");
             validatorsList.forEach(validatorRule -> {
                 ValidatorEnum validatorEnum = ValidatorEnum.getEnumByString(validatorRule);
                 Validator validator = applicationContext.getBean(validatorEnum.getValidatorClass());
